@@ -12,6 +12,8 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 - SCU的一些~~辅助小工具~~
 - SCU的巨佬编写的优秀代码
 
+<!--more-->
+
 # 理念
 
 **"当其他人都盲目追寻真理的时候，记住，万物皆虚。**
