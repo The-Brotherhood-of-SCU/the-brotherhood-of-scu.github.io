@@ -5,7 +5,6 @@ title: Hello there
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 -->
 欢迎来到[The Brotherhood of SCU](https://github.com/The-Brotherhood-of-SCU)!
-
 在这里，你可能会遇见以下的事情...
 - SCU的一些有趣的事情
 - SCU的一些鲜有人知的事情
@@ -24,7 +23,6 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 # 加入
 
 我们欢迎来自各个学年，各个学院的大佬，只要你有兴趣，都可以加入我们
-
 联系邮箱:<u>The_Brotherhood_of_SCU@outlook.com</u>
 
 联系请注明:
