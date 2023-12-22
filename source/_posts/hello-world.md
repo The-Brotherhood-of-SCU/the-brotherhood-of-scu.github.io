@@ -1,9 +1,10 @@
 ---
 title: Hello there
+date: 2023-12-22 18:43:19
+tags:    
+    - [Infomation]
 ---
-<!--
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
--->
+
 欢迎来到[The Brotherhood of SCU](https://github.com/The-Brotherhood-of-SCU)!
 在这里，你可能会遇见以下的事情...
 - SCU的一些有趣的事情
@@ -36,39 +37,3 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 我们会定期对邮箱内申请进行审核，通过者将会加入我们组织
 
 <strong><font color=#AFEEEE>WELCOME TO THE BROTHERHOOD OF SCU！</font></strong>
-
-<!--
-## Quick Start
-
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
--->
