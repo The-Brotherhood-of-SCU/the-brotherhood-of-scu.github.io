@@ -278,7 +278,9 @@ widgets:
         # Names and URLs of the sites
         links:
             创高理论题库查询: /AnswerForPE_Web/
+            计算机网络: /network_docs/
             锐评: /herui_saying/
+            
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
