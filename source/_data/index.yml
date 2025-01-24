@@ -40,14 +40,14 @@
 #   fluid: 
 #   more: 
 
-# - name: customers
-#   id: 
-#   title: 客户
-#   subtitle: 我们的客户来自世界上最好的公司
-#   partials: [instapic, quotation]
-#   bg_color: 
-#   fluid: 
-#   more: 
+- name: customers
+  id: 
+  title: Concepts
+  subtitle: 我们的理念
+  partial: quotation
+  bg_color: 
+  fluid: 
+  more: 
 
 
 
