@@ -1,0 +1,46 @@
+//
+// Grid flex
+//
+.row, .row-row
+  display: flex
+  margin: grid-gutter-width * -1
+  .col
+    flex: 1 1 auto
+    padding: grid-gutter-width
+
+for i in 1 2 3 4 5 6 7 8 9 10 11 12
+  .col-{i}
+    padding: grid-gutter-width
+    width: 100%
+    @media media-sm
+      width: 100% * (i/grid-columns)
+
+.row
+  flex-direction: column
+  @media media-sm
+    flex-direction: row
+
+.row-row
+  flex-direction: row
+  for i in 1 2 3 4 5 6 7 8 9 10 11 12
+    .col-{i}
+      width: 100% * (i/grid-columns)
+
+
+$padding-0
+  padding: 0
+
+.no-gutters
+  margin: 0
+  .col
+    @extend $padding-0
+  for i in 1 2 3 4 5 6 7 8 9 10 11 12
+    .col-{i}
+      @extend $padding-0
+
+
+
+ 
+
+
+

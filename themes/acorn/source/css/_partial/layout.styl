@@ -1,0 +1,20 @@
+//
+// Layout
+//
+.container, .container-fluid
+  position: relative
+  margin: 0 auto
+.container
+  max-width: max-width
+  padding-right: spacer
+  padding-left: spacer
+  @media screen and (min-width: @max-width) {
+    padding-right: 0
+    padding-left: 0
+  }
+.container-full
+  max-width: 100%
+
+@import "header"
+@import "footer"
+@import "banner"

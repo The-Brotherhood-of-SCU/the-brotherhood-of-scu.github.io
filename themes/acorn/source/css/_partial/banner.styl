@@ -1,0 +1,29 @@
+//
+// Banner
+//
+.banner
+  position: relative
+  height: 20rem
+  border-radius(border-radius-value)
+  background-size: cover
+  background-position: center
+  background-image: url(/images/banner/banner.jpg)
+  overflow: hidden
+  &::before
+    content: ''
+    position: absolute
+    z-index: 0
+    bottom: 0
+    right: 0
+    left: 0
+    top: 0
+    background-color rgba(darken(primary-color, 85%), .5)
+  .banner-text
+    position: absolute
+    z-index: 1
+    center()
+    color: light-color
+    .page-type-title
+      padding: 0
+      font-weight: normal
+      font-size: 3.2rem

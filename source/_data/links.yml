@@ -1,0 +1,16 @@
+## 友情链接
+# name:         文字/标题
+# link:         链接路径，无链接为空即可
+#
+- name: Acorn
+  link: https://acorn.imaging.xin/
+
+- name: Hexo
+  link: https://hexo.io/
+
+- name: GitHub
+  link: https://github.com
+
+- name: To Base64
+  link: https://duoyu.wang
+

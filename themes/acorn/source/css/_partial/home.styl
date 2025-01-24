@@ -1,0 +1,24 @@
+//
+// home styles ...
+//
+@keyframes twinkling
+  0%
+    opacity .25
+  50%
+    opacity 1
+  100%
+    opacity .25
+
+.learn-more
+  position: absolute
+  z-index: 2
+  bottom: spacer
+  center-x()
+  animation: twinkling 3s linear infinite
+  a
+    display: inline-block
+    color: light-color
+    transition: transition-base
+
+@import "jumbotron"
+@import "hero"

@@ -1,0 +1,37 @@
+<!-- Index -->
+
+<%- partial('_partial/page/hero', {cache: true}) %>
+
+<section class="section py-5 bg-light">
+  <div class="container">
+    <%- partial('_partial/culture', {cache: true}) %>
+  </div>
+</section>
+
+<% for (var section in site.data.index){%>
+  <section class="section py-5 <%=site.data.index[section]['bg_color'] %>" id="<%=site.data.index[section]['id'] %>">
+    <div class="container<%=site.data.index[section]['fluid'] %>">
+      <div class="section-heading text-center mb-5">
+        <h3><%=site.data.index[section]['title'] %></h3>
+        <p class="text-gray"><%=site.data.index[section]['subtitle'] %></p>
+      </div>
+
+      <% if ('partial' in site.data.index[section]) { %>
+        <div class="section-body">
+          <%- partial('_partial/'+site.data.index[section]['partial'], {pagination: 2, index: true}) %>
+        </div>
+      <% }else if('partials' in site.data.index[section]) { %>
+        <% for (var partialIndex in site.data.index[section]['partials']){%>
+          <div class="section-body">
+            <%- partial('_partial/'+site.data.index[section]['partials'][partialIndex], {pagination: 2, index: true}) %>
+          </div>
+        <% } %>
+      <% } %>
+      <% if ('more' in site.data.index[section] && site.data.index[section]['more'] !== null ) { %>
+        <div class="d-flex justify-content-center pt-5">
+          <%- link_to(site.data.index[section]['more'], '→ 查看更多',{class: 'btn btn-lg bg-white shadow-hover'}) %>
+        </div>
+      <% } %>
+    </div>
+  </section>
+<%} %>

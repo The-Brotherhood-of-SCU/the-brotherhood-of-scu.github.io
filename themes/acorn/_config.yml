@@ -1,0 +1,52 @@
+# Header
+menu:
+  首页: /
+  关于: /about
+
+# Content
+excerpt_link: 阅读全文
+
+# MIIT ICP/IP/DOMAIN
+beian: 
+  enable: false
+  number: 
+  url: https://beian.miit.gov.cn/
+
+# Miscellaneous
+favicon: https://avatars.githubusercontent.com/u/154577967?s=48&v=4
+webclip: 
+brand:   /images/brand.png
+
+# Jumbotron video & Hero image & Swiper
+## Jumbotron video
+video: 
+  overlay: false
+  path: /images/movie/
+## Hero image
+hero: 
+  image: /images/banner/banner.avif
+## Swiper
+## https://github.com/nolimits4web/swiper
+swiper: 
+  enable: false
+
+# Toc
+## https://github.com/tscanlin/tocbot
+toc: true
+
+# Slogan
+slogan: 
+  primary: The Brotherhood of SCU
+  secondary: Find Anything Here
+  archives: 
+  pages: 
+  posts: 
+
+# Library
+libs:
+  feather: /libs/feather/feather.min.js # V4.29.0
+  lazysizes: /libs/lazysizes/lazysizes.min.js
+  tocbot: /libs/tocbot/tocbot.min.js
+  swiper: 
+    css: /libs/swiper/swiper-bundle.min.css
+    js:  /libs/swiper/swiper-bundle.min.js

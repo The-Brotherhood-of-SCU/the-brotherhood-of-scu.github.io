@@ -58,6 +58,6 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: icarus
+theme: acorn
 deploy:
   type: ''
