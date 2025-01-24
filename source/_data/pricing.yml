@@ -1,0 +1,23 @@
+## 项目案例
+# name:         标题
+# en_name:      英文标题
+# description:  描述内容
+# cover:        封面图片路径
+# link:         链接路径，无链接为空即可
+# preview:      预览路径，无则可以为空
+#
+
+- name: 何锐箴言
+  description: 收集高数老师何锐的教诲，启迪我们前进的道路
+  cover: /images/projects/herui-saying.avif
+  link: 
+    url: https://the-brotherhood-of-scu.github.io/herui_saying/
+    text: Visit
+
+
+- name: Network Docs
+  description: 计算机网络的5层模型
+  cover: /images/projects/netword-docs.avif
+  link: 
+    url: https://the-brotherhood-of-scu.github.io/network_docs/
+    text: Visit

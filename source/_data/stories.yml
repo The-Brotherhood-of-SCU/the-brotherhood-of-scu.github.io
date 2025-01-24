@@ -20,9 +20,9 @@
   link: https://github.com/The-Brotherhood-of-SCU/semi-supervised-learning
   preview: 
 
-- name: 何锐名言
-  en_name: herui's saying
-  description: 收集高数老师何锐的教诲，启迪我们前进的道路
-  cover: /images/projects/herui-saying.avif
-  link: https://the-brotherhood-of-scu.github.io/herui_saying/
+- name: 数据结构与算法分析实验
+  en_name: DSAA experiments
+  description: 数据结构与算法分析实验课：代码实现
+  cover: /images/projects/dsaa-exp.avif
+  link: https://github.com/The-Brotherhood-of-SCU/data-structure-exp
   preview: 

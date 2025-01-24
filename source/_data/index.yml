@@ -24,6 +24,13 @@
   more: https://github.com/The-Brotherhood-of-SCU
 
 
+- name: pricing
+  id: 
+  title: Open Source Docments
+  subtitle: 实用的开源文档
+  partial: pricing
+  bg_color: bg-light
+
 # - name: album
 #   id: 
 #   title: 画廊
@@ -52,9 +59,3 @@
 #   partial: solution
 #   bg_color: 
 
-# - name: pricing
-#   id: 
-#   title: 定制计划
-#   subtitle: 我们提供针对个人和团队的定制计划
-#   partial: pricing
-#   bg_color: 
