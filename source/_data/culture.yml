@@ -1,0 +1,28 @@
+## 企业文化
+# name:         标题
+# en_name:      英文标题
+# description:  描述内容
+# cover:        封面图片路径
+# cover_size:   封面图片大小
+# link:         链接路径，无链接为空即可
+#
+- name: Open Source
+  en_name: 
+  description: 我们有许多开源项目，欢迎访问/贡献。
+  cover: /images/culture/icon_1.svg
+  cover_size: 64
+  link:
+
+- name: Useful
+  en_name: 
+  description: 有用的小工具
+  cover: /images/culture/icon_2.svg
+  cover_size: 64
+  link:
+
+- name: Class Materials
+  en_name: 
+  description: 许多课程资源
+  cover: /images/culture/icon_3.svg
+  cover_size: 64
+  link:

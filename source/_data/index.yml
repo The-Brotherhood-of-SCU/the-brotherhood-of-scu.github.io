@@ -1,0 +1,60 @@
+## Index Section
+# name:         客户名称
+# title:        大标题
+# subtitle:     小标题，描述性
+#
+
+
+- name: archive
+  id: 
+  title: Blog
+  subtitle: Blog of The Developers
+  partial: archive
+  bg_color: 
+  fluid: 
+  more: /archives/
+
+- name: stories
+  id: 
+  title: Open Source Projects
+  subtitle: 有趣的开源项目
+  partial: page/stories
+  bg_color: bg-light
+  fluid: 
+  more: https://github.com/The-Brotherhood-of-SCU
+
+
+# - name: album
+#   id: 
+#   title: 画廊
+#   subtitle: 只需要改变 2 个颜色就会让你的站点焕然一新
+#   partial: album
+#   bg_color: 
+#   fluid: 
+#   more: 
+
+# - name: customers
+#   id: 
+#   title: 客户
+#   subtitle: 我们的客户来自世界上最好的公司
+#   partials: [instapic, quotation]
+#   bg_color: 
+#   fluid: 
+#   more: 
+
+
+
+
+# - name: solution
+#   id: 
+#   title: 解决方案
+#   subtitle: 品质源于专业 服务彰显真诚
+#   partial: solution
+#   bg_color: 
+
+# - name: pricing
+#   id: 
+#   title: 定制计划
+#   subtitle: 我们提供针对个人和团队的定制计划
+#   partial: pricing
+#   bg_color: 

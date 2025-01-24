@@ -1,0 +1,11 @@
+## 友情链接
+# name:         文字/标题
+# link:         链接路径，无链接为空即可
+#
+
+
+- name: 计算机网络
+  link: /network_docs/
+
+- name: 锐评
+  link: /herui_saying/
