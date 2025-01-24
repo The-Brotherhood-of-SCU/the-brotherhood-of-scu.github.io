@@ -2,15 +2,10 @@
 # name:         文字/标题
 # link:         链接路径，无链接为空即可
 #
-- name: Acorn
-  link: https://acorn.imaging.xin/
 
-- name: Hexo
-  link: https://hexo.io/
 
-- name: GitHub
-  link: https://github.com
+- name: 计算机网络
+  link: /network_docs/
 
-- name: To Base64
-  link: https://duoyu.wang
-
+- name: 锐评
+  link: /herui_saying/

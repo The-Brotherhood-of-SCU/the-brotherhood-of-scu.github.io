@@ -4,17 +4,13 @@
 # icon:         图标路径，不使用图标为空即可
 # link:         链接路径，无链接为空即可
 #
-- name: 微博
-  en_name: weibo
-  icon: /images/icons/contact_weibo.svg
-  link: https://zhwangart.com
+- name: Github
+  en_name: Github
+  icon: /images/icons/github.svg
+  link: https://github.com/The-Brotherhood-of-SCU
 
-- name: 微信
-  en_name: wechat
-  icon: /images/icons/contact_wechat.svg
-  link: javascript:;
 
 - name: 邮箱
   en_name: e-mail
   icon: /images/icons/contact_email.svg
-  link: mailto:a@abc.com
+  link: The_Brotherhood_of_SCU@outlook.com

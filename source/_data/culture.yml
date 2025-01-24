@@ -6,23 +6,23 @@
 # cover_size:   封面图片大小
 # link:         链接路径，无链接为空即可
 #
-- name: 企业文化
+- name: Open Source
   en_name: 
-  description: 潦水尽而寒潭清，烟光凝而暮山紫。俨骖騑于上路，访风景于崇阿；临帝子之长洲，得天人之旧馆。
+  description: 我们有许多开源项目，欢迎访问/贡献。
   cover: /images/culture/icon_1.svg
   cover_size: 64
   link:
 
-- name: 企业文化
+- name: Useful
   en_name: 
-  description: 潦水尽而寒潭清，烟光凝而暮山紫。俨骖騑于上路，访风景于崇阿；临帝子之长洲，得天人之旧馆。
+  description: 有用的小工具
   cover: /images/culture/icon_2.svg
   cover_size: 64
   link:
 
-- name: 企业文化
+- name: Class Materials
   en_name: 
-  description: 潦水尽而寒潭清，烟光凝而暮山紫。俨骖騑于上路，访风景于崇阿；临帝子之长洲，得天人之旧馆。
+  description: 许多课程资源
   cover: /images/culture/icon_3.svg
   cover_size: 64
   link:
