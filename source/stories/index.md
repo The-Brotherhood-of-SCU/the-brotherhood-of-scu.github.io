@@ -1,5 +1,5 @@
 ---
-title: 案例
+title: Open Source Projects
 data: stories
 layout: plugins
 partial: stories

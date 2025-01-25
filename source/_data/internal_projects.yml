@@ -1,0 +1,21 @@
+
+- name: 抢课助手
+  en_name: Course Catcher
+  description: 泥川抢课助手
+  cover: images/projects/course-catcher.avif
+  link: https://github.com/The-Brotherhood-of-SCU/Advanced-SCU_course_catcher
+  preview: 
+
+- name: QQ机器人框架
+  en_name: QQ Robot Framework
+  description: 实现QQ机器人的模块化开发，以插件的形式增加功能
+  cover: images/projects/qq-bot-framework.avif
+  link: https://github.com/The-Brotherhood-of-SCU/QQ-bot-framework
+  preview: 
+
+- name: HeRui课堂回放
+  en_name: HeRui Recordings
+  description: 记录大师herui的课堂录音
+  cover: images/projects/herui-recordings.avif
+  link: https://github.com/The-Brotherhood-of-SCU/herui_record
+  preview: 

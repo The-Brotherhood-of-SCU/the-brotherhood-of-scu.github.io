@@ -7,8 +7,8 @@
 # preview:      预览路径，无则可以为空
 #
 
-- name: 何锐箴言
-  description: 收集高数老师何锐的教诲，启迪我们前进的道路
+- name: HeRui箴言
+  description: 大师HeRui的教诲，启迪我们前进的道路
   cover: /images/projects/herui-saying.avif
   link: 
     url: https://the-brotherhood-of-scu.github.io/herui_saying/

@@ -31,14 +31,6 @@
   partial: pricing
   bg_color: bg-light
 
-# - name: album
-#   id: 
-#   title: 画廊
-#   subtitle: 只需要改变 2 个颜色就会让你的站点焕然一新
-#   partial: album
-#   bg_color: 
-#   fluid: 
-#   more: 
 
 - name: customers
   id: 
@@ -49,7 +41,14 @@
   fluid: 
   more: 
 
-
+# - name: album
+#   id: 
+#   title: 画廊
+#   subtitle: 只需要改变 2 个颜色就会让你的站点焕然一新
+#   partial: album
+#   bg_color: 
+#   fluid: 
+#   more: 
 
 
 # - name: solution

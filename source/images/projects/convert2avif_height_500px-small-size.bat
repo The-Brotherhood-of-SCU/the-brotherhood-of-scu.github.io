@@ -24,7 +24,7 @@ for %%I in ("%sourceFile%") do set "sourceFileNameWithoutExtension=%%~nI"
 set "destinationFile=%sourceDirectory%%sourceFileNameWithoutExtension%.avif"
 
 :: 使用FFmpeg将JPG转换为AVIF
-ffmpeg -i "%sourceFile%"  -vf "scale=-1:500"  -c:v libaom-av1 -crf 30 -b:v 0 -row-mt 1 -tile-columns 2 -frame-parallel 1 "%destinationFile%"
+ffmpeg -i "%sourceFile%"  -vf "scale=-1:500"  -c:v libaom-av1 -crf 40 -b:v 0 -row-mt 1 -tile-columns 2 -frame-parallel 1 "%destinationFile%"
 
 :: 检查FFmpeg命令是否成功执行
 if %ERRORLEVEL% equ 0 (
