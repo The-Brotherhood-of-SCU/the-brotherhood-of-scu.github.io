@@ -1,11 +1,11 @@
-<div class="row justify-content-center">
+<div class="row justify-content-center" >
   <% for (var item in site.data.pricing){%>
-    <div class="col-3">
-      <div class="card bg-white rounded-spacer text-center shadow-hover">
-        <div class="card-body py-5">
+    <div class="col-3" >
+      <div class="card bg-white rounded-spacer text-center shadow-hover" style="height: 100%;">
+        <div class="card-body py-5" style="height: 100%;display: flex;flex-direction: column">
           <h6 class="text-gray"><%=site.data.pricing[item]['name'] %></h6>
           <img class="img-fluid lazyload" data-src="<%=site.data.pricing[item]['cover'] %>" alt="<%=site.data.pricing[item]['name'] %>" role="img">
-          <p class="mb-5" style="height: 30px;"><%=site.data.pricing[item]['description'] %></p>
+          <p class="mb-5" style="flex-grow: 1"><%=site.data.pricing[item]['description'] %></p>
           <a class="btn btn-lg btn-primary text-white" href="<%=site.data.pricing[item]['link']['url'] %>"><%=site.data.pricing[item]['link']['text'] %></a>
         </div>
       </div>

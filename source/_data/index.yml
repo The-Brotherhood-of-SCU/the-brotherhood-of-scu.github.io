@@ -14,7 +14,7 @@
   fluid: 
   more: /archives/
 
-- name: stories
+- name: projs
   id: 
   title: Open Source Projects
   subtitle: 有趣的开源项目
@@ -24,20 +24,20 @@
   more: https://github.com/The-Brotherhood-of-SCU
 
 
-- name: pricing
+- name: docs
   id: 
   title: Open Source Docments
   subtitle: 实用的开源文档
   partial: pricing
-  bg_color: bg-light
+  bg_color: 
 
 
-- name: customers
+- name: concepts
   id: 
   title: Concepts
   subtitle: 我们的理念
   partial: quotation
-  bg_color: 
+  bg_color: bg-light
   fluid: 
   more: 
 
