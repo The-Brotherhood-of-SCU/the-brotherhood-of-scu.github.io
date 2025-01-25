@@ -67,3 +67,9 @@ autoprefixer:
 clean_css:
   exclude: 
     - '*.min.css'
+html_minifier:
+  exclude: 
+uglify:
+  exclude:
+    - "*.min.js"
+  mangle: true
