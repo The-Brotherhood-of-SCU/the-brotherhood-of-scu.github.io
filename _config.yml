@@ -58,7 +58,7 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: acorn
+theme: acorn-ext
 deploy:
   type: ''
 autoprefixer:
