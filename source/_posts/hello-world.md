@@ -2,7 +2,7 @@
 title: Hello there
 date: 2023-12-22 18:43:19
 tags:    
-    - [Infomation]
+    - [info]
 ---
 
 欢迎来到[The Brotherhood of SCU](https://github.com/The-Brotherhood-of-SCU)!
