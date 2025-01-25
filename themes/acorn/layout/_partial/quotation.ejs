@@ -30,6 +30,10 @@
 	}
   window.addEventListener('resize', ()=>{
     minHeight = 0;
+    let paragrahs = document.getElementsByName("contents-paragraph");
+    for(let element in paragrahs){
+      element.minHeight = 0;
+    }
   });
   async function autoChange() {
     while (true) {
@@ -37,10 +41,13 @@
         if (tesObj[i].checked) {
           let paragrahs = document.getElementsByName("contents-paragraph");
           let currentHeight = paragrahs[i].scrollHeight;
-          minHeight = Math.max(minHeight, currentHeight);
-          for (var j = 0; j < paragrahs.length; j++) {
-            paragrahs[j].style.minHeight = minHeight + "px";
+          if(currentHeight>minHeight){
+            minHeight = currentHeight;
+            for (var j = 0; j < paragrahs.length; j++) {
+              paragrahs[j].style.minHeight = minHeight + "px";
+            }
           }
+
 
           tesObj[i].checked = false;
           var nextIndex = (i + 1) % tesObj.length;
