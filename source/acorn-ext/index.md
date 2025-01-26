@@ -5,7 +5,7 @@ background: /images/banner/city_scene.avif
 ---
 # Acorn Extened
 
-`Acorn-Ext` (Acorn Extended) 是`Acorn`的定制版本，是一种`hexo`主题，适用于组织、团体。
+`Acorn-Ext` (Acorn Extended) 是`Acorn`的定制版本，是一种`hexo`主题，适用于orgnization。
 
 相比[原版](https://acorn.imaging.xin/)：
 - 修复了bug： 修复一些UI错位
