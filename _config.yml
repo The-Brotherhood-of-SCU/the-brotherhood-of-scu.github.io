@@ -69,6 +69,8 @@ clean_css:
     - '*.min.css'
 html_minifier:
   exclude: 
+  minifyJS: true
+  minifyCSS: true
 uglify:
   exclude:
     - "*.min.js"
