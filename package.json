@@ -12,6 +12,7 @@
     "version": "7.0.0"
   },
   "dependencies": {
+    "@renbaoshuo/markdown-it-katex": "^2.0.2",
     "hexo": "^7.0.0",
     "hexo-admonition": "^1.1.2",
     "hexo-autoprefixer": "^2.0.0",
@@ -22,13 +23,14 @@
     "hexo-generator-tag": "^2.0.0",
     "hexo-html-minifier": "^1.0.0",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-markdown-it": "^7.1.1",
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-fluid": "^1.9.7",
     "hexo-theme-icarus": "^5.2.1",
     "hexo-theme-landscape": "^1.0.0",
-    "hexo-uglify": "^2.0.0"
+    "hexo-uglify": "^2.0.0",
+    "katex": "^0.16.21"
   },
   "browserslist": [
     "last 2 versions"

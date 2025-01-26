@@ -67,11 +67,17 @@ autoprefixer:
 clean_css:
   exclude: 
     - '*.min.css'
+    
 html_minifier:
   exclude: 
   minifyJS: true
   minifyCSS: true
+
 uglify:
   exclude:
     - "*.min.js"
   mangle: true
+
+markdown:
+  plugins:
+    - '@renbaoshuo/markdown-it-katex'
