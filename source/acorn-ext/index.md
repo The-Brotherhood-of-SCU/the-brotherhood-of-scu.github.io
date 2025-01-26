@@ -3,7 +3,7 @@ title: Acorn-Ext
 date: 2025-1-26 18:08:38
 background: /images/banner/city_scene.avif
 ---
-# Acorn Extened
+# Acorn Extended
 
 `Acorn-Ext` (Acorn Extended) 是`Acorn`的定制版本，是一种`hexo`主题，适用于orgnization。
 
