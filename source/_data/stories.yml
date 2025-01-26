@@ -20,6 +20,13 @@
   link: https://github.com/The-Brotherhood-of-SCU/semi-supervised-learning
   preview: 
 
+- name: Hexo主题Acorn-Ext
+  en_name: Acorn-Ext Theme for Hexo
+  description: 为org定制的Hexo主题，基于Acorn。
+  cover: /images/projects/acorn-ext.avif
+  link: /acorn-ext
+  preview: 
+
 - name: 数据结构与算法分析实验
   en_name: DSAA experiments
   description: 数据结构与算法分析实验课：代码实现
