@@ -26,7 +26,7 @@
 
 - name: docs
   id: 
-  title: Open Source Docments
+  title: Open Source Documents
   subtitle: 实用的开源文档
   partial: pricing
   bg_color: 
