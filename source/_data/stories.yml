@@ -13,12 +13,19 @@
   link: https://github.com/The-Brotherhood-of-SCU/JHMG-engine
   preview: 
 
-- name: 半监督图像分类神经网络
-  en_name: semi-supVAE model
-  description: 通过encoder-decoder/classifier的方式，实现对图像分类的半监督学习。
-  cover: /images/projects/semi-sup-vae.avif
-  link: https://github.com/The-Brotherhood-of-SCU/semi-supervised-learning
+- name: SCU Plus
+  en_name: SCU Plus
+  description: 一个浏览器插件，旨在提升四川大学教务系统体验
+  cover: /images/projects/scu-plus.avif
+  link: https://github.com/The-Brotherhood-of-SCU/scu-plus
   preview: 
+
+# - name: 半监督图像分类神经网络
+#   en_name: semi-supVAE model
+#   description: 通过encoder-decoder/classifier的方式，实现对图像分类的半监督学习。
+#   cover: /images/projects/semi-sup-vae.avif
+#   link: https://github.com/The-Brotherhood-of-SCU/semi-supervised-learning
+#   preview: 
 
 - name: Hexo主题Acorn-Ext
   en_name: Acorn-Ext Theme for Hexo
