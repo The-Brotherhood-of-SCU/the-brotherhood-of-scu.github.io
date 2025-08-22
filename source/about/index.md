@@ -17,3 +17,5 @@ date: 2023-12-22 18:08:38
 ## Contact 
 
 email: [The_Brotherhood_of_SCU@outlook.com](mailto:The_Brotherhood_of_SCU@outlook.com)
+
+QQ group id: **835747109**

@@ -7,6 +7,13 @@
 # preview:      预览路径，无则可以为空
 #
 
+- name: SCU-typst-template
+  description: 四川大学毕业论文 Typst 模版
+  cover: 	/images/projects/scu.jpg
+  link: 
+    url: https://github.com/The-Brotherhood-of-SCU/SCU-typst-template
+    text: Visit
+
 - name: HeRui箴言
   description: 大师HeRui的教诲，启迪我们前进的道路
   cover: /images/projects/herui-saying.avif
