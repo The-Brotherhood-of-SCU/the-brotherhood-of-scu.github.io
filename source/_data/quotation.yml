@@ -1,8 +1,6 @@
 ## 客户称赞
-# number:   ID 不可为空，从 0 开始
 # name:     客户名称
 # words:    客户的称赞内容
-#
 
 - name: wmj commented on minecraft
   words: 一时生电一时爽，一直生电一直爽
@@ -12,5 +10,8 @@
 
 - name: 57U
   words: 无为
+
+- name: 鱼幼薇 commented on csgo2
+  words: If u luv cs, then I luv u.
 
 
