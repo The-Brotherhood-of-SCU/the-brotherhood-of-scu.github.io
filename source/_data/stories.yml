@@ -6,12 +6,6 @@
 # link:         链接路径，无链接为空即可
 # preview:      预览路径，无则可以为空
 #
-- name: JHMG 游戏引擎
-  en_name: JHMG Game Engine
-  description: JHMG 游戏引擎一个简单的2D游戏引擎，旨在帮助快速搭建和开发2D游戏。
-  cover: /images/projects/jhmg.avif
-  link: https://github.com/The-Brotherhood-of-SCU/JHMG-engine
-  preview: 
 
 - name: SCU Plus
   en_name: SCU Plus
