@@ -54,9 +54,9 @@ def main():
             "login": node['login'].lower(),
             "original_login": node['login'],
             "name": node['name'] or node['login'],
-            "role": "Founder" if role_type == "ADMIN" else "Member",
+            "role": role_type,
             "is_admin": role_type == "ADMIN",
-            "bio": (node['bio'] or "全栈开发者，热爱开源").replace('\r', '').replace('\n', ' ').strip()
+            "bio": (node['bio'] or "没有介绍信息的高手...").replace('\r', '').replace('\n', ' ').strip()
         })
 
     sorted_members = sorted(processed_list, key=lambda x: (-x['is_admin'], x['login']))

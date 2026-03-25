@@ -1,362 +1,360 @@
-## 组织成员
-# name:         成员名称
-# github:       GitHub 用户名
-# role:         角色/职位
-# bio:          简介
-# avatar:       头像（留空则使用 GitHub 头像）
-
 - name: 57U
   github: 57UU
-  role: Founder
-  bio: 全栈开发者，热爱开源
+  role: ADMIN
+  bio: 没有介绍信息的高手...
 
-- name: assume engage
+- name: Assume engage
   github: assumeengagetry
-  role: Founder
+  role: ADMIN
   bio: a Sophomore in SCU
 
 - name: Hanfeng23333
   github: Hanfeng23333
-  role: Founder
-  bio: 全栈开发者，热爱开源
+  role: ADMIN
+  bio: 没有介绍信息的高手...
 
 - name: 泊松不分布
   github: jeanhua
-  role: Founder
+  role: ADMIN
   bio: Student
 
 - name: PantheraLeo
   github: PantheraLeo14
-  role: Founder
-  bio: 全栈开发者，热爱开源
+  role: ADMIN
+  bio: 没有介绍信息的高手...
 
 - name: SeeleVollerei
   github: SeeleVollerei-Official
-  role: Founder
+  role: ADMIN
   bio: Official AI account for SeeleVollerei.
 
 - name: Simpidbit
   github: Simpidbit
-  role: Founder
+  role: ADMIN
   bio: An undergraduate student majoring in CS at Sichuan University. Love open-source programs.
 
 - name: Kevin Wang
   github: wjlfish
-  role: Founder
+  role: ADMIN
   bio: Student
 
 - name: Lu Chuhan
   github: acidkonoyo
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: AGM54C
   github: AGM54C
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: BapKlonely
   github: BapKlonely
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: ccr39
   github: ccr39
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: chaoqun hao
   github: chaoQQQ
-  role: Member
+  role: MEMBER
   bio: 20231414600100@stu.scu.edu.cn
 
 - name: cheneleven625
   github: cheneleven625
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: Ping-Yeh Chou
   github: cloud-zby
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: Crane33A
   github: Crane33A
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: cryfly666
   github: cryfly666
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: David W
   github: D-RF-W
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: Daking
   github: dakingffo
-  role: Member
+  role: MEMBER
   bio: An undergraduate student interested in high performance system and AI infra.
 
 - name: Ruiming Guo (郭睿明)
   github: Dandelight
-  role: Member
+  role: MEMBER
   bio: To be professional.
 
 - name: Elessar2077
   github: Elessar2077
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: ff66ccff
   github: ff66ccff
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: Frank126Xu
   github: Frank126Xu
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: CiKo
   github: G2-CiKo
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: HongHui Zhang
   github: gamefreshman
-  role: Member
+  role: MEMBER
   bio: A GameFreshMan, CSer, SCUmaker
 
 - name: GanbarNaito
   github: GanbarNaito
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: Geek66666
   github: Geek66666
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: Gao Yixin
   github: Gyxqq
-  role: Member
+  role: MEMBER
   bio: a student
 
 - name: heiyachou
   github: heiyachou
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: huangbaqian
   github: huangbaqian
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: 林栀夏
   github: ImZhiXia
-  role: Member
+  role: MEMBER
   bio: 老爹 @jeanhua
 
 - name: Jiaxi Huang
   github: Jiaxi-Huang
-  role: Member
+  role: MEMBER
   bio: Coffee for night. Coding for life
 
 - name: Li Zhuhuan
   github: JuneH21
-  role: Member
+  role: MEMBER
   bio: I am Li Zhuhuan,a student in scu university.I want to study in Github.
 
 - name: 纪绫
   github: Kilin-JiLing
-  role: Member
+  role: MEMBER
   bio: 纪绫，一介书生。
 
 - name: lalala
   github: lalala-233
-  role: Member
+  role: MEMBER
   bio: Just for fun.
 
 - name: lanzhi2709
   github: lanzhi2709
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: lazyapo
   github: lazyapo
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: Lijia Sun
   github: LianjinSe
-  role: Member
+  role: MEMBER
   bio: A postgraduate student majoring in Computer Science at Sichuan University.
+
+- name: Liu Xiaoqi
+  github: liuxqscu
+  role: MEMBER
+  bio: Left nothing behind
 
 - name: Aboy
   github: llj123456789
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: Zhuoyao Liu
   github: lzyyyyy666
-  role: Member
+  role: MEMBER
   bio: My name is Zhuoyao Liu, a junior student at Sichuan University. My research direction is multimodal retrieval and MLLMs.
 
 - name: meteor
   github: meteor-liu-xinyu
-  role: Member
+  role: MEMBER
   bio: I am a student at Sichuan University, Jiang'an Campus
 
 - name: moyan79
   github: moyan79
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: REflectionIso
   github: REflectionIso
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: Feng Yang
   github: rlxc4
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: TL_LPJ
   github: SCU-LPJ
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: SDLTF
   github: SDLTF
-  role: Member
+  role: MEMBER
   bio: A student in  Sichuan University, who study math and AI techonogy
 
 - name: seven77-caiji
   github: seven77-caiji
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: silenzio111
   github: silenzio111
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: √Y
   github: Slimzeo
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: SoYi
   github: SoYiQwQ
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: Junlin Li
   github: Squidwa2d
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: gnahz
   github: SunkInDream
-  role: Member
+  role: MEMBER
   bio: student of scu
 
 - name: TangYi
   github: tangyidadawang
-  role: Member
+  role: MEMBER
   bio: A student from the Department of Medical Information Engineering at the School of Biomedical Engineering, Sichuan University
 
 - name: TermV
   github: Terminal-Void
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: TexasOct
   github: TexasOct
-  role: Member
+  role: MEMBER
   bio: 🦀
 
 - name: tfdtamy
   github: tfdtamy
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: Tian Mingyu
   github: tianmy0388
-  role: Member
+  role: MEMBER
   bio: Hi, I am Tian Mingyu, a student majoring in AI.
 
 - name: TiramisuQiao
   github: TiramisuQiao
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: tomorin-gugugaga
   github: tomorin-gugugaga
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: tt619252615
   github: tt619252615
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: Wall-Leg-Sao-Gun
   github: Wall-Leg-Sao-Gun
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: wsqept
   github: wsqept
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: 黑心老昔年
   github: XiNian-dada
-  role: Member
+  role: MEMBER
   bio: a normal fu*king guy
 
 - name: Wu Yifei
   github: xinsuhan
-  role: Member
+  role: MEMBER
   bio: I am a college student at Sichuan University interested in computer science.
 
 - name: Chen Yijia
   github: xyjyuechu
-  role: Member
+  role: MEMBER
   bio: I am a student studing in Sichuan university.  My current research interest is in anomaly detection now.
 
 - name: Constellation
   github: YangT1an
-  role: Member
+  role: MEMBER
   bio: SCUのfw小登
 
 - name: Ye Yixiang
   github: yeyixiang2007
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: 鱼幼薇
   github: youweiyu
-  role: Member
+  role: MEMBER
   bio: Why not?
 
 - name: Ys-zl
   github: Ys-zl
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: Jianhao Zhang
   github: ZJH2O
-  role: Member
+  role: MEMBER
   bio: Sichuan University, major in CS
 
 - name: Zyx
   github: Zyx-SCU
-  role: Member
-  bio: 全栈开发者，热爱开源
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
