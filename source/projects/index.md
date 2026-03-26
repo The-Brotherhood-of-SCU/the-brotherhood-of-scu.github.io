@@ -1,6 +1,6 @@
 ---
 title: Open Source Projects
-data: stories
+data: open_projects
 layout: plugins
 partial: stories
 ---
