@@ -1,32 +1,42 @@
+- name: SCU-SportVenue-Reserver
+  en_name: SCU-SportVenue-Reserver
+  description: 自动化抢四川大学体育场地（开放中）
+  link: https://github.com/The-Brotherhood-of-SCU/SCU-SportVenue-Reserver
+
+- name: SCU-2ndClass-QuickResolve
+  en_name: SCU-2ndClass-QuickResolve
+  description: 四川大学第二课堂活动的半自动报名，签到，签退，评论一体化工具
+  link: https://github.com/The-Brotherhood-of-SCU/SCU-2ndClass-QuickResolve
+
 - name: Chingo_Hack
   en_name: Chingo_Hack
   description: 暂无描述
   link: https://github.com/The-Brotherhood-of-SCU/Chingo_Hack
 
-- name: rubbish_plan
-  en_name: rubbish_plan
-  description: 混沌课表
-  link: https://github.com/The-Brotherhood-of-SCU/rubbish_plan
+- name: SCU-2class-QRcoder
+  en_name: SCU-2class-QRcoder
+  description: 四川大学第二课堂二维码生成器
+  link: https://github.com/The-Brotherhood-of-SCU/SCU-2class-QRcoder
 
-- name: Advanced-SCU_course_catcher
-  en_name: Advanced-SCU_course_catcher
-  description: 川大选课助手
-  link: https://github.com/The-Brotherhood-of-SCU/Advanced-SCU_course_catcher
+- name: SCU-2ndClass-QRGen
+  en_name: SCU-2ndClass-QRGen
+  description: 四川大学第二课堂活动的签到/签退二维码生成工具，支持通过报名网址一键生成签到和签退二维码及链接，便于扫码或分享
+  link: https://github.com/The-Brotherhood-of-SCU/SCU-2ndClass-QRGen
 
 - name: SCU-2ndclass-AutoResolve
   en_name: SCU-2ndclass-AutoResolve
   description: 正在开发中，功能尚不完整
   link: https://github.com/The-Brotherhood-of-SCU/SCU-2ndclass-AutoResolve
 
+- name: Advanced-SCU_course_catcher
+  en_name: Advanced-SCU_course_catcher
+  description: 川大选课助手
+  link: https://github.com/The-Brotherhood-of-SCU/Advanced-SCU_course_catcher
+
 - name: SCU-Openlesson-AutoLearner
   en_name: SCU-Openlesson-AutoLearner
   description: 自动学习四川大学公开课（特指新生实验室安全课）
   link: https://github.com/The-Brotherhood-of-SCU/SCU-Openlesson-AutoLearner
-
-- name: SCU-2ndClass-QuickResolve
-  en_name: SCU-2ndClass-QuickResolve
-  description: 四川大学第二课堂活动的半自动报名，签到，签退，评论一体化工具
-  link: https://github.com/The-Brotherhood-of-SCU/SCU-2ndClass-QuickResolve
 
 - name: SCU-Ecourse-Helper-4-Edge
   en_name: SCU-Ecourse-Helper-4-Edge
@@ -42,11 +52,6 @@
   en_name: SCU-2ndClass-QRGen-Android
   description: 四川大学第二课堂活动的签到/签退二维码生成工具，支持通过报名网址一键生成签到和签退二维码及链接，便于扫码或分享
   link: https://github.com/The-Brotherhood-of-SCU/SCU-2ndClass-QRGen-Android
-
-- name: SCU-2ndClass-QRGen
-  en_name: SCU-2ndClass-QRGen
-  description: 四川大学第二课堂活动的签到/签退二维码生成工具，支持通过报名网址一键生成签到和签退二维码及链接，便于扫码或分享
-  link: https://github.com/The-Brotherhood-of-SCU/SCU-2ndClass-QRGen
 
 - name: SCU-second-class-QRcoder
   en_name: SCU-second-class-QRcoder

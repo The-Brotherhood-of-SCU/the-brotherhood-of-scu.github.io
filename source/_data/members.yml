@@ -8,6 +8,11 @@
   role: ADMIN
   bio: a Sophomore in SCU
 
+- name: ff66ccff
+  github: ff66ccff
+  role: ADMIN
+  bio: 没有介绍信息的高手...
+
 - name: Hanfeng23333
   github: Hanfeng23333
   role: ADMIN
@@ -33,15 +38,20 @@
   role: ADMIN
   bio: An undergraduate student majoring in CS at Sichuan University. Love open-source programs.
 
+- name: TermV
+  github: Terminal-Void
+  role: ADMIN
+  bio: 没有介绍信息的高手...
+
 - name: Kevin Wang
   github: wjlfish
   role: ADMIN
   bio: Student
 
-- name: Lu Chuhan
-  github: acidkonoyo
-  role: MEMBER
-  bio: 没有介绍信息的高手...
+- name: 黑心老昔年
+  github: XiNian-dada
+  role: ADMIN
+  bio: a normal fu*king guy
 
 - name: AGM54C
   github: AGM54C
@@ -100,11 +110,6 @@
 
 - name: Elessar2077
   github: Elessar2077
-  role: MEMBER
-  bio: 没有介绍信息的高手...
-
-- name: ff66ccff
-  github: ff66ccff
   role: MEMBER
   bio: 没有介绍信息的高手...
 
@@ -198,6 +203,16 @@
   role: MEMBER
   bio: 没有介绍信息的高手...
 
+- name: Lu Chuhan
+  github: LuChuhan
+  role: MEMBER
+  bio: 没有介绍信息的高手...
+
+- name: Rafalee
+  github: Lxy-RRR
+  role: MEMBER
+  bio: 没有介绍信息的高手...
+
 - name: Zhuoyao Liu
   github: lzyyyyy666
   role: MEMBER
@@ -268,11 +283,6 @@
   role: MEMBER
   bio: A student from the Department of Medical Information Engineering at the School of Biomedical Engineering, Sichuan University
 
-- name: TermV
-  github: Terminal-Void
-  role: MEMBER
-  bio: 没有介绍信息的高手...
-
 - name: TexasOct
   github: TexasOct
   role: MEMBER
@@ -312,11 +322,6 @@
   github: wsqept
   role: MEMBER
   bio: 没有介绍信息的高手...
-
-- name: 黑心老昔年
-  github: XiNian-dada
-  role: MEMBER
-  bio: a normal fu*king guy
 
 - name: Wu Yifei
   github: xinsuhan
