@@ -223,10 +223,10 @@
   role: MEMBER
   bio: I am a student at Sichuan University, Jiang'an Campus
 
-- name: moyan79
+- name: Tianxin Xu
   github: moyan79
   role: MEMBER
-  bio: 没有介绍信息的高手...
+  bio: A student
 
 - name: REflectionIso
   github: REflectionIso
@@ -340,6 +340,11 @@
 
 - name: Ye Yixiang
   github: yeyixiang2007
+  role: MEMBER
+  bio: 没有介绍信息的高手...
+
+- name: yii
+  github: Yii6724XT
   role: MEMBER
   bio: 没有介绍信息的高手...
 
