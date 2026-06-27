@@ -101,7 +101,7 @@
 - name: Daking
   github: dakingffo
   role: MEMBER
-  bio: An undergraduate student interested in high performance system and AI infra.
+  bio: Undergraduate at SCU, Chengdu, China. Interests： High Performance Computing / System; AI Infra; Architecture;
 
 - name: Ruiming Guo (郭睿明)
   github: Dandelight
@@ -153,6 +153,11 @@
   role: MEMBER
   bio: 没有介绍信息的高手...
 
+- name: ImMerryBot
+  github: ImMerryBot
+  role: MEMBER
+  bio: 没有介绍信息的高手...
+
 - name: 林栀夏
   github: ImZhiXia
   role: MEMBER
@@ -172,6 +177,16 @@
   github: Kilin-JiLing
   role: MEMBER
   bio: 纪绫，一介书生。
+
+- name: jia xiaoran
+  github: kk0827-006X
+  role: MEMBER
+  bio: 没有介绍信息的高手...
+
+- name: Liu Zhiyuan
+  github: L2Yuan
+  role: MEMBER
+  bio: 没有介绍信息的高手...
 
 - name: lalala
   github: lalala-233
@@ -227,6 +242,16 @@
   github: moyan79
   role: MEMBER
   bio: A student
+
+- name: 南瓜瓜
+  github: nanguaguag
+  role: MEMBER
+  bio: Hello Github! @fyscu
+
+- name: Stanley Lee
+  github: oldplum
+  role: MEMBER
+  bio: Just like the stars in the sky,  never alone and always bright.
 
 - name: REflectionIso
   github: REflectionIso
@@ -312,6 +337,11 @@
   github: tt619252615
   role: MEMBER
   bio: 没有介绍信息的高手...
+
+- name: Chihaya Anon
+  github: Visio-Vanitas
+  role: MEMBER
+  bio: そういう一瞬一瞬をたくさん重ねたら、一生なるんだと思う
 
 - name: Wall-Leg-Sao-Gun
   github: Wall-Leg-Sao-Gun

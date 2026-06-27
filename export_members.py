@@ -56,7 +56,7 @@ def main():
             "name": node['name'] or node['login'],
             "role": role_type,
             "is_admin": role_type == "ADMIN",
-            "bio": (node['bio'] or "没有介绍信息的高手...").replace('\r', '').replace('\n', ' ').strip()
+            "bio": (node['bio'] or "没有介绍信息的高手...").replace('\r', '').replace('\n', ' ').replace(':', '：').strip()
         })
 
     sorted_members = sorted(processed_list, key=lambda x: (-x['is_admin'], x['login']))
