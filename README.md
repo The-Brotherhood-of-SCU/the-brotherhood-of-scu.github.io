@@ -34,7 +34,9 @@ tags:
 
 ## 更新成员名录
 
-成员数据来自 GitHub 组织 API（含角色与 bio），存储在 `src/data/members.json`，由 GitHub Actions（`.github/workflows/sync-members.yml`）每天自动同步，有变化时自动提交，无需手动维护。
+成员数据来自 GitHub 组织 API（含角色与 bio），存储在 `src/data/members.json`，由 GitHub Actions（`.github/workflows/sync-members.yml`）每天自动同步，有变化时自动提交并触发部署，无需手动维护。
+
+提交推送用的是 `MEMBERS_SYNC_TOKEN` secret，不是内置 `GITHUB_TOKEN`——后者的 push 按 GitHub 设计不会触发 `deploy.yml`。因此该 token 除 `read:org`（读组织成员）外还需仓库写权限：classic PAT 用 `repo` + `read:org`，fine-grained PAT 用 Repository → Contents: Read and write 加 Organization → Members: Read-only。
 
 ## 部署
 

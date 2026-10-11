@@ -18,6 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # 不持久化内置 GITHUB_TOKEN：用它的 push 不会触发 deploy.yml
+          persist-credentials: false
 
       - name: Sync members
         env:
@@ -26,13 +29,16 @@ jobs:
         run: node scripts/sync-members.mjs
 
       - name: Commit if changed
+        env:
+          # 用 PAT 推送；内置 GITHUB_TOKEN 的 push 不会触发 deploy.yml
+          SYNC_TOKEN: ${{ secrets.MEMBERS_SYNC_TOKEN }}
         run: |
           if git diff --quiet -- src/data/members.json; then
             echo "成员名单无变化，跳过提交"
-          else
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add src/data/members.json
-            git commit -m "chore: 自动同步组织成员名单"
-            git push
+            exit 0
           fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/members.json
+          git commit -m "chore: 自动同步组织成员名单"
+          git push "https://x-access-token:${SYNC_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
