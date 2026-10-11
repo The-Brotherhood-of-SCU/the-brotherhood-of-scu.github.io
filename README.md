@@ -36,7 +36,7 @@ tags:
 
 成员数据来自 GitHub 组织 API（含角色与 bio），存储在 `src/data/members.json`，由 GitHub Actions（`.github/workflows/sync-members.yml`）每天自动同步，有变化时自动提交并触发部署，无需手动维护。
 
-提交推送用的是 `MEMBERS_SYNC_TOKEN` secret，不是内置 `GITHUB_TOKEN`——后者的 push 按 GitHub 设计不会触发 `deploy.yml`。因此该 token 除 `read:org`（读组织成员）外还需仓库写权限：classic PAT 用 `repo` + `read:org`，fine-grained PAT 用 Repository → Contents: Read and write 加 Organization → Members: Read-only。
+`MEMBERS_SYNC_TOKEN` secret 只用于读取组织成员（需要 `read:org`），提交和推送走工作流内置的 `GITHUB_TOKEN`（`permissions: contents: write`）。因为 GitHub 规定 `GITHUB_TOKEN` 的 push 不会触发其他工作流，同步脚本在推送后会用 `gh workflow run deploy.yml` 显式派发一次部署（`workflow_dispatch` 是该规则的官方例外）。改动这条链路时注意：不要删掉 `permissions.actions: write`，也不要改回用 PAT 推送。
 
 ## 部署
 

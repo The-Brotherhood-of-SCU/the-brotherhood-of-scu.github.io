@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: write
+  # 推送后显式派发 deploy.yml 需要
+  actions: write
 
 concurrency:
   group: sync-members
@@ -18,9 +20,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          # 不持久化内置 GITHUB_TOKEN：用它的 push 不会触发 deploy.yml
-          persist-credentials: false
 
       - name: Sync members
         env:
@@ -28,10 +27,9 @@ jobs:
           GH_TOKEN: ${{ secrets.MEMBERS_SYNC_TOKEN }}
         run: node scripts/sync-members.mjs
 
-      - name: Commit if changed
+      - name: Commit and dispatch deploy if changed
         env:
-          # 用 PAT 推送；内置 GITHUB_TOKEN 的 push 不会触发 deploy.yml
-          SYNC_TOKEN: ${{ secrets.MEMBERS_SYNC_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           if git diff --quiet -- src/data/members.json; then
             echo "成员名单无变化，跳过提交"
@@ -41,4 +39,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/members.json
           git commit -m "chore: 自动同步组织成员名单"
-          git push "https://x-access-token:${SYNC_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
+          git push
+          # GITHUB_TOKEN 的 push 按设计不触发工作流，这里显式派发一次
+          gh workflow run deploy.yml --ref main

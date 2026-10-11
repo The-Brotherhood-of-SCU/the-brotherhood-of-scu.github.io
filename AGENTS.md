@@ -34,4 +34,5 @@ Motion lives in two places: the fixed `.aurora-scene` background layer in `Base.
 
 - `astro.config.mjs` `site` must stay in sync with `public/CNAME` (`scubro.dev`); canonical URLs, OG tags, sitemap, and RSS all derive from it. Don't delete `public/CNAME`.
 - Every push to `main` auto-deploys via GitHub Actions (`.github/workflows/deploy.yml`, `withastro/action@v3`) — there is no staging environment.
+- Pushes made with the built-in `GITHUB_TOKEN` do **not** trigger other workflows (GitHub's recursion guard), so `sync-members.yml` commits with `GITHUB_TOKEN` and then explicitly runs `gh workflow run deploy.yml` (needs `permissions.actions: write`). Don't switch that push back to a PAT or drop the dispatch — the member sync would silently stop deploying.
 - Code blocks use Shiki dual themes `github-light`/`github-dark` (`defaultColor: 'light'`); the dark palette is applied by the `.dark` rule on `.astro-code` in `global.css`.
